@@ -13,12 +13,10 @@ public class fenster extends Frame implements ActionListener {
     	TextArea area;
     
 	public fenster () {
-			//rip
 			liste = new ArrayList<>();
 			random = new Button("random");
 			history = new Button("history");
 			feld = new TextField();
-			area = new TextArea();
 			
 			this.setLayout(new GridLayout(2,2));
 			
@@ -29,7 +27,6 @@ public class fenster extends Frame implements ActionListener {
 			this.add(random);
 			this.add(feld);
 			this.add(history);
-			this.add(area);
 			pack();
 			this.setVisible(true);
 			
