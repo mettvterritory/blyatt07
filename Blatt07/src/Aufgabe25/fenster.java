@@ -13,7 +13,7 @@ public class fenster extends Frame implements ActionListener {
     	TextArea area;
     
 	public fenster () {
-			
+			//rip
 			liste = new ArrayList<>();
 			random = new Button("random");
 			history = new Button("history");
