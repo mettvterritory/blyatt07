@@ -13,7 +13,7 @@ public class dialog extends Frame implements ActionListener {
     	    area = new TextArea();
     	    //liste2 = new ArrayList<>();
     	    
-    	    //hi
+    	    //hijgkjhg
     	    
     	    
     	    this.setLayout(new GridLayout(1,1));
