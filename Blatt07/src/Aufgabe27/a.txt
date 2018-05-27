@@ -15,4 +15,5 @@ create table Point
 	ID	integer		not null,
 	x	float		not null,
 	y	float		not null,
+	primary key(ID),
 );
