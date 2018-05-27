@@ -1,9 +1,9 @@
 create table GeometricObject
 (
 	ID	integer		not null,
-	radius	integer,
-	length	integer,
-	width	integer,
+	radius	float,
+	length	float,
+	width	float,
 	Type	char(1),	not null,
 	check (Type in ('c','r')),
 	primary key(ID),
@@ -13,6 +13,6 @@ create table GeometricObject
 create table Point
 (
 	ID	integer		not null,
-	x	integer		not null,
-	y	integer		not null,
+	x	float		not null,
+	y	float		not null,
 );
