@@ -1,0 +1,18 @@
+create table GeometricObject
+(
+	ID	integer		not null,
+	radius	integer,
+	length	integer,
+	width	integer,
+	Type	char(1),	not null,
+	check (Type in ('c','r')),
+	primary key(ID),
+	foreign key(positionID) references Point(ID),
+);
+
+create table Point
+(
+	ID	integer		not null,
+	x	integer		not null,
+	y	integer		not null,
+);
